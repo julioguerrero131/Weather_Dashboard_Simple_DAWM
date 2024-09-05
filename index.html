@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+        
+        In this video tutorial, I've shown how to build a responsive weather app using HTML, CSS, and JavaScript. 
+        In this weather project, users can enter any city name to get the weather forecast or simply click 
+        on the "Use Current Location" button to get current location weather details, including temperature, 
+        wind speed, humidity, and more
+
+        https://morioh.com/a/eac1737090b7/how-to-build-a-responsive-weather-app-using-html-css-and-javascript
+        
+        -->
+
+        <meta charset="utf-8">
+        <title>Weather App Project JavaScript | CodingNepal</title>
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Agregue la etiqueta script con la ruta al archivo "javascripts/script.js" y con el atributo defer -->
+        <script src="javascripts/script.js" defer="defer"></script>
+        
+
+    </head>
+    <body>
+        <h1>Weather Dashboard</h1>
+        <div class="container">
+            <div class="weather-input">
+                <h3>Enter a City Name</h3>
+                <input class="city-input" type="text"
+                    placeholder="E.g., New York, London, Tokyo">
+                <button class="search-btn">Search</button>
+                <div class="separator"></div>
+                <button class="location-btn">Use Current Location</button>
+            </div>
+            <div class="weather-data">
+                <div class="current-weather">
+                    <div class="details">
+                        <h2>______ (______)</h2>
+                        <h6>Temperature: __°C</h6>
+                        <h6>Wind: __ M/S</h6>
+                        <h6>Humidity: __%</h6>
+                    </div>
+                    <div class="icon">
+                        <img id="icon-description" src="__"
+                            alt="weather-icon">
+                        <h6>__</h6>
+                    </div>
+                </div>
+                <div class="days-forecast">
+                    <h2>5-Day Forecast</h2>
+                    <ul class="weather-cards">
+                        <li class="card">
+                            <h3>( ______ )</h3>
+                            <h6>Temp: __C</h6>
+                            <h6>Wind: __ M/S</h6>
+                            <h6>Humidity: __%</h6>
+                        </li>
+                        <li class="card">
+                            <h3>( ______ )</h3>
+                            <h6>Temp: __C</h6>
+                            <h6>Wind: __ M/S</h6>
+                            <h6>Humidity: __%</h6>
+                        </li>
+                        <li class="card">
+                            <h3>( ______ )</h3>
+                            <h6>Temp: __C</h6>
+                            <h6>Wind: __ M/S</h6>
+                            <h6>Humidity: __%</h6>
+                        </li>
+                        <li class="card">
+                            <h3>( ______ )</h3>
+                            <h6>Temp: __C</h6>
+                            <h6>Wind: __ M/S</h6>
+                            <h6>Humidity: __%</h6>
+                        </li>
+                        <li class="card">
+                            <h3>( ______ )</h3>
+                            <h6>Temp: __C</h6>
+                            <h6>Wind: __ M/S</h6>
+                            <h6>Humidity: __%</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
